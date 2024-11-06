@@ -2,14 +2,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     
 }
+
+.outer-container{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    
+}
+
+
 
 .signup-box {
     display: flex;
     width: 600px;
-    height: 300px;
+    height: 400px;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -28,15 +37,17 @@
 }
 
 .barber-signup {
-    background-color: #333; /* Placeholder color, replace with barber image */
+    background-color: #bdbdbd5d;
 }
 
 .customer-signup {
-    background-color: #555; /* Placeholder color, replace with customer image */
+    background-color: #bdbdbda4;
 }
 
 .signup-half:hover {
+    background-color: #ffffff;
     opacity: 0.9;
+    
 }
 
 .signup-content {
