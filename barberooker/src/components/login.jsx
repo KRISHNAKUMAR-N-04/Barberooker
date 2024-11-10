@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import api from '../api';
 import { useNavigate } from 'react-router-dom';
 import '../components/Login.css'
+import Navbar from './Navbar';
 
 function Login() {
     const [username, setUsername] = useState('');
@@ -12,7 +13,7 @@ function Login() {
         e.preventDefault();
         try {
             const res = await api.post('/login', { username, password });
-            navigate('./barberooker')
+            navigate('/barberooker')
             alert('Login Successful');
             
         } catch {
@@ -26,6 +27,7 @@ function Login() {
 
     return (
         <div>
+            <Navbar/>
             
             <form onSubmit={handleSubmit} className='Login'>
             <h1>Barberooker</h1>

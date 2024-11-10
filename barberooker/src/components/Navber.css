@@ -5,6 +5,8 @@
     justify-content: space-around;
     align-items: center;
     backdrop-filter: Blur(2px);
+    color: #fff;
+    margin: 0;
 }
 
 .left, .right{

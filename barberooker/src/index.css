@@ -14,8 +14,7 @@ code {
 
 :root{
   background-image: url('./img/background.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-position: fixed;
-  background-size: cover;
-  
+  background-size: cover; 
 }
