@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './LandingPage.css';
 import Navbar, { NavbarLater } from './Navbar';
 import AboutUs from './AboutUs';
+import HowToUse from './HowToUse';
 
 const LandingOut = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -53,6 +54,7 @@ const LandingPage = () => {
       </div>
     </div>
     <AboutUs/>
+    <HowToUse/>
     </div>
     
   );

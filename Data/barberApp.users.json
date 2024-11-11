@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "671f5697d64a8e366caefe4b"
+  },
+  "username": "Krishnakumar N",
+  "password": "$2a$10$2NTR.Zmv5Hv/HwbxND5LF..q0Hv46S76bLYy91a8gvWH5LhAyoAYS",
+  "role": "customer",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67289695aed7d9116d863f9d"
+  },
+  "username": "Krishnakumar",
+  "password": "$2a$10$4yuNmfXnd.gX.j/Lz9CLg.cM7hvUl2ZVQdDErmPmyVChOmzhXcWIS",
+  "role": "barber",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672b0ace2bc7a00d242beeca"
+  },
+  "username": "Rajkumar",
+  "password": "$2a$10$WoZKJZDCeCR2m7pOKq3LR.Q2p/BebiZ1QIiFpDvoQ7gqvkEBF4aY6",
+  "role": "barber",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672b0b7f2bc7a00d242beecc"
+  },
+  "username": "Dinesh",
+  "password": "$2a$10$3DfOSc.rcE5n9d26W8fR.uhNRyu0v8rQvsMbv/M1eCXSqVuM3OfMS",
+  "role": "customer",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672b0baf2bc7a00d242beece"
+  },
+  "username": "Kavin",
+  "password": "$2a$10$GAEnmg3iOr6SxIoe2zbd1OeqQbnvP0HiPvPgFmPgC4MZ3LNUHQbtq",
+  "role": "customer",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672b0bd02bc7a00d242beed0"
+  },
+  "username": "kavin",
+  "password": "$2a$10$LqP6CiNGKGIsGRs1uZ7H8Oq6FgK5O/xS.3cR.tggyBidxwyGPgKPa",
+  "role": "customer",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672b0be62bc7a00d242beed2"
+  },
+  "username": "kavin ",
+  "password": "$2a$10$wlCJMF4T3/41MKisDT3msusBsjS8sugvSmqBiy1TrH6HnOmTgploa",
+  "role": "customer",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672b2fec702f5c6d0a535380"
+  },
+  "username": "naveen",
+  "password": "$2a$10$0xHE3KmW550B2sWbDAxeJOtJqlP6C1ba4yOUyokb6J/BiBiZfCkZq",
+  "role": "customer",
+  "__v": 0
+}]

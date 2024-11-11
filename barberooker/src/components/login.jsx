@@ -13,8 +13,8 @@ function Login() {
         e.preventDefault();
         try {
             const res = await api.post('/login', { username, password });
-            navigate('/barberooker')
             alert('Login Successful');
+            navigate('/barberooker')
             
         } catch {
             alert('invalid credentials');

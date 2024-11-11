@@ -35,9 +35,9 @@ const AboutUs = () => {
       {/* Cards Section */}
       <div className="card-container">
         <div className="card">
-          <h3 className="card-title">Experienced Stylists</h3>
+          <h3 className="card-title">Stylists profile</h3>
           <p className="card-text">
-            Our team has years of experience in creating stylish and modern looks.
+            Choose your Stylist based on their profile.
           </p>
         </div>
         <div className="card">
@@ -55,7 +55,7 @@ const AboutUs = () => {
         <div className="card">
           <h3 className="card-title">Relaxing Environment</h3>
           <p className="card-text">
-            Enjoy a luxurious and relaxing experience at our salon.
+            Choose your Hair dressing environment based on the availability of the stylist.
           </p>
         </div>
       </div>
