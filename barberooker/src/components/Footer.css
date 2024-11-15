@@ -1,0 +1,18 @@
+.Bottom-base{
+    background-color: azure;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-foot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-foot{
+    width: 100%;
+    margin-top: 24px;
+}

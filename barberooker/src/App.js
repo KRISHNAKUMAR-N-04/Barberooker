@@ -5,7 +5,7 @@ import SignUpBarber from './components/SignupBarber';
 import SignUpCustomer from './components/SignupCustomer';
 import Login from './components/login';
 import LandingOut, { LandingPage } from './components/Landing';
-import Navbar from './components/Navbar';
+import BookingPage from './components/Booking';
 
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
                 <Route path="/signup/customer" element={<SignUpCustomer />} />
                 <Route path='/barberooker' element={<LandingPage/>}/>
                 <Route path='/' element={<LandingOut/>}/>
+                <Route path='/barberooker/booking' element={<BookingPage></BookingPage>}/>
             </Routes>
         </Router>
         

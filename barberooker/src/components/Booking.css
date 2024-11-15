@@ -1,0 +1,60 @@
+.booking-page {
+    max-width: 800px;
+    margin: 0 auto;
+    height: 90vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    
+  }
+  
+  .Booking{
+    background-color: #00000047;
+
+  }
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .profile-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-card h2 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .profile-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .book-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .book-button:hover {
+    background-color: #45a049;
+  }
+  

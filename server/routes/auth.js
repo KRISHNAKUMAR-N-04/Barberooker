@@ -25,4 +25,15 @@ router.post('/login', async (req, res) => {
     }
 });
 
+// Route to fetch all profiles
+router.get("/", async (req, res) => {
+    try {
+      const profiles = await User.find({ role: "barber" }); // Adjust query as needed
+      res.json(profiles);
+    } catch (error) {
+      console.error("Error fetching profiles:", error);
+      res.status(500).json({ error: "Failed to fetch profiles" });
+    }
+  });
+  
 module.exports = router;

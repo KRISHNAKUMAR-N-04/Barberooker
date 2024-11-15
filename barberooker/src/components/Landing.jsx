@@ -3,6 +3,8 @@ import './LandingPage.css';
 import Navbar, { NavbarLater } from './Navbar';
 import AboutUs from './AboutUs';
 import HowToUse from './HowToUse';
+import Footer from './Footer'
+import { useNavigate } from 'react-router-dom';
 
 const LandingOut = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -33,6 +35,7 @@ const LandingOut = () => {
 
 const LandingPage = () => {
   const [isHovered, setIsHovered] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -47,7 +50,7 @@ const LandingPage = () => {
           className={`landing-button ${isHovered ? 'hover' : ''}`}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
-          onClick={() => alert('Booking...')}
+          onClick={() => navigate('/barberooker/booking')}
         >
           Book Now
         </button>
@@ -55,6 +58,7 @@ const LandingPage = () => {
     </div>
     <AboutUs/>
     <HowToUse/>
+    <Footer/>
     </div>
     
   );
