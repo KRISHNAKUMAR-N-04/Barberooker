@@ -1,0 +1,28 @@
+
+.body-stylist{  
+    display: flex;
+    height: 90vh;
+    justify-content: centre;
+    align-items: center;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    
+
+}
+
+.book-content-left{
+    flex: 1;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    backdrop-filter : blur(5px);
+
+}
+
+.book-content-right{
+    flex: 1;
+    backdrop-filter: blur(5px);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}

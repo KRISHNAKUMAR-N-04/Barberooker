@@ -6,6 +6,7 @@ import SignUpCustomer from './components/SignupCustomer';
 import Login from './components/login';
 import LandingOut, { LandingPage } from './components/Landing';
 import BookingPage from './components/Booking';
+import StylistBook from './components/StylistBook';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
                 <Route path='/barberooker' element={<LandingPage/>}/>
                 <Route path='/' element={<LandingOut/>}/>
                 <Route path='/barberooker/booking' element={<BookingPage></BookingPage>}/>
+                <Route path='/stylist' element={<StylistBook/>}/>
             </Routes>
         </Router>
         
