@@ -1,5 +1,5 @@
 .Bottom-base{
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
     height: 20vh;
     display: flex;
     justify-content: space-evenly;

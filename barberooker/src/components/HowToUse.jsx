@@ -5,7 +5,8 @@ const HowToUse = () => {
     const steps = [
         { number: 1, text: 'Complete your profile' },
         { number: 2, text: 'Search for stylists' },
-        { number: 3, text: 'Book them with your requirement' },
+        { number: 3, text: 'Choose your stylist' },
+        { number: 4, text: 'Enjoy your stylish look!'}
     ];
 
     useEffect(() => {

@@ -13,7 +13,6 @@ function Login() {
         e.preventDefault();
         try {
             const res = await api.post('/login', { username, password });
-            alert('Login Successful');
             navigate('/barberooker')
             
         } catch {
