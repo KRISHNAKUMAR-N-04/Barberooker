@@ -7,41 +7,55 @@ import { useNavigate } from "react-router-dom";
 
 const BookingPage = () => {
   const [profiles, setProfiles] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const navigate = useNavigate();
 
   useEffect(() => {
     (async () => {
       try {
         const response = await api.get("/");
-        console.log(response.data);
-        setProfiles(response.data); // Ensure response.data contains the profiles
-      } catch (error) {
-        console.error("Error fetching profiles:", error);
+        setProfiles(response.data);      ;
+      } catch (err) {
+        console.error("Error fetching profiles:", err);
+        setError("Failed to fetch barber profiles.");
+      } finally {
+        setLoading(false);
       }
     })();
   }, []);
 
-  const handleBook = () =>{
-    navigate('/stylist')
-  }
+  const handleBook = (barberId) => {
+    // Navigate to the booking page for a specific barber
+    navigate(`/stylist/${barberId}`);
+  };
 
   return (
     <div className="Booking">
       <NavbarLater />
       <div className="booking-page">
         <h1>Book Your Stylist</h1>
-        <div className="profile-grid">
-          {profiles.length > 0 ? (
-            profiles.map((profile) => (
+        {loading ? (
+          <p>Loading profiles...</p>
+        ) : error ? (
+          <p className="error-message">{error}</p>
+        ) : (
+          <div className="profile-grid">
+            {profiles.map((profile) => (
               <div key={profile._id} className="profile-card">
                 <h2>{profile.name}</h2>
-                <button onClick={handleBook} className="book-button">Book Now</button>
+                <p>{profile.specialization || "General Barber"}</p>
+                <p>Rating: {profile.rating || "N/A"}</p>
+                <button
+                  onClick={() => handleBook(profile._id)}
+                  className="book-button"
+                >
+                  Book Now
+                </button>
               </div>
-            ))
-          ) : (
-            <p>Loading profiles...</p>
-          )}
-        </div>
+            ))}
+          </div>
+        )}
       </div>
       <Footer />
     </div>
