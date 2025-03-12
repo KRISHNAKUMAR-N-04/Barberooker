@@ -29,12 +29,14 @@ import doc12 from './doc12.png'
 import doc13 from './doc13.png'
 import doc14 from './doc14.png'
 import doc15 from './doc15.png'
-import Dermatologist from './Dermatologist.svg'
-import Gastroenterologist from './Gastroenterologist.svg'
-import General_physician from './General_physician.svg'
-import Gynecologist from './Gynecologist.svg'
-import Neurologist from './Neurologist.svg'
-import Pediatricians from './Pediatricians.svg'
+import Haircut from './Precision_Hair_Cut.png'
+import HairColour from './Balayage_and_Colouring.png'
+import Treatment from './Keratin Treatement.png'
+import Extention from './Blowout_and_Styling.png'
+import Scalp from './Scalp_and_haircare.png'
+import MensGroom from './Mens_Grooming.png'
+import Wig from './Braiding_and_deadlocks.png'
+import Styling from './Hair_treatment.png'
 
 
 export const assets = {
@@ -58,28 +60,36 @@ export const assets = {
 
 export const specialityData = [
     {
-        speciality: 'General physician',
-        image: General_physician
+        speciality: 'Haircut',
+        image: Haircut
     },
     {
-        speciality: 'Gynecologist',
-        image: Gynecologist
+        speciality: 'Hair Colouring',
+        image: HairColour
     },
     {
-        speciality: 'Dermatologist',
-        image: Dermatologist
+        speciality: 'Treatment',
+        image: Treatment
     },
     {
-        speciality: 'Pediatricians',
-        image: Pediatricians
+        speciality: 'Extentions',
+        image: Extention
     },
     {
-        speciality: 'Neurologist',
-        image: Neurologist
+        speciality: 'Scalp Health',
+        image: Scalp
     },
     {
-        speciality: 'Gastroenterologist',
-        image: Gastroenterologist
+        speciality: 'Men\'s Grooming',
+        image: MensGroom
+    },
+    {
+        speciality: 'Wig & Hairpiece',
+        image:  Styling
+    },
+    {
+        speciality: 'Styling',
+        image: Wig
     },
 ]
 

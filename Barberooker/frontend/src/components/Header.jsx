@@ -18,7 +18,7 @@ const Header = () => {
         </div>
 
         <div className='md:w-1/2 relative justify-center align-middle lg:pl-16 md:pl-6' >
-            <img className='w-140 md:absolute bottom-0 rounded-lg' src={assets.header_img} alt=''  />
+            <img className='w-140 md:absolute bottom-0 rounded-lg ' src={assets.header_img} alt=''  />
         </div>
 
       
