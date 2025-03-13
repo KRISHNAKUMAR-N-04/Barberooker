@@ -14,28 +14,25 @@ import info_icon from './info_icon.svg'
 import upload_icon from './upload_icon.png'
 import stripe_logo from './stripe_logo.png'
 import razorpay_logo from './razorpay_logo.png'
-import doc1 from './doc1.png'
-import doc2 from './doc2.png'
-import doc3 from './doc3.png'
-import doc4 from './doc4.png'
-import doc5 from './doc5.png'
-import doc6 from './doc6.png'
-import doc7 from './doc7.png'
-import doc8 from './doc8.png'
-import doc9 from './doc9.png'
-import doc10 from './doc10.png'
-import doc11 from './doc11.png'
-import doc12 from './doc12.png'
-import doc13 from './doc13.png'
-import doc14 from './doc14.png'
-import doc15 from './doc15.png'
+import bar1 from './Ferry.png'
+import bar2 from './Rose.png'
+import bar3 from './Root.png'
+import bar4 from './Kemedith.png'
+import bar5 from './Leviston.png'
+import bar6 from './Andrea.png'
+import bar7 from './Harry.png'
+import bar8 from './Sony.png'
+import bar9 from './Jimmy.png'
+import bar10 from './Exsty.png'
+import bar11 from './Anisha.png'
+import bar12 from './Broad.png'
+import bar13 from './Zara.png'
 import Haircut from './Precision_Hair_Cut.png'
 import HairColour from './Balayage_and_Colouring.png'
 import Treatment from './Keratin Treatement.png'
 import Extention from './Blowout_and_Styling.png'
 import Scalp from './Scalp_and_haircare.png'
 import MensGroom from './Mens_Grooming.png'
-import Wig from './Braiding_and_deadlocks.png'
 import Styling from './Hair_treatment.png'
 
 
@@ -87,21 +84,16 @@ export const specialityData = [
         speciality: 'Wig & Hairpiece',
         image:  Styling
     },
-    {
-        speciality: 'Styling',
-        image: Wig
-    },
 ]
 
 export const doctors = [
     {
-        _id: 'doc1',
-        name: 'Dr. Richard James',
-        image: doc1,
-        speciality: 'General physician',
-        degree: 'MBBS',
+        _id: 'bar1',
+        name: 'Ferry',
+        image: bar1,
+        speciality: 'Haircut',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Ferry, a skilled hair-cut specialist with 4 years of experience, delivering precision cuts and stylish transformations with expert craftsmanship',
         fees: 50,
         address: {
             line1: '17th Cross, Richmond',
@@ -109,13 +101,12 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc2',
-        name: 'Dr. Emily Larson',
-        image: doc2,
-        speciality: 'Gynecologist',
-        degree: 'MBBS',
+        _id: 'bar2',
+        name: 'Rose',
+        image: bar2,
+        speciality: 'Extentions',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Rose, a talented Extention specialist with 4 years of experience, crafting precision cuts and stylish looks with expert finesse.',
         fees: 60,
         address: {
             line1: '27th Cross, Richmond',
@@ -123,13 +114,12 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc3',
-        name: 'Dr. Sarah Patel',
-        image: doc3,
-        speciality: 'Dermatologist',
-        degree: 'MBBS',
+        _id: 'bar3',
+        name: 'Root',
+        image: bar3,
+        speciality: 'Men\'s Grooming',
         experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Root, a talented Grooming specialist with 4 years of experience, crafting precision cuts and stylish looks with expert finesse.',
         fees: 30,
         address: {
             line1: '37th Cross, Richmond',
@@ -137,11 +127,10 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc4',
-        name: 'Dr. Christopher Lee',
-        image: doc4,
-        speciality: 'Pediatricians',
-        degree: 'MBBS',
+        _id: 'bar4',
+        name: 'Kemedith',
+        image: bar4,
+        speciality: 'Scalp Health',
         experience: '2 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 40,
@@ -151,11 +140,10 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc5',
-        name: 'Dr. Jennifer Garcia',
-        image: doc5,
-        speciality: 'Neurologist',
-        degree: 'MBBS',
+        _id: 'bar5',
+        name: 'Leviston',
+        image: bar5,
+        speciality: 'Wig & Hairpiece',
         experience: '4 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
@@ -165,11 +153,10 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc6',
-        name: 'Dr. Andrew Williams',
-        image: doc6,
-        speciality: 'Neurologist',
-        degree: 'MBBS',
+        _id: 'bar6',
+        name: 'Andrea',
+        image: bar6,
+        speciality: 'Treatment',
         experience: '4 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
@@ -179,11 +166,10 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc7',
-        name: 'Dr. Christopher Davis',
-        image: doc7,
-        speciality: 'General physician',
-        degree: 'MBBS',
+        _id: 'bar7',
+        name: 'Harry',
+        image: bar7,
+        speciality: 'Hair Colouring',
         experience: '4 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
@@ -193,11 +179,10 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc8',
-        name: 'Dr. Timothy White',
-        image: doc8,
-        speciality: 'Gynecologist',
-        degree: 'MBBS',
+        _id: 'bar8',
+        name: 'Sony',
+        image: bar8,
+        speciality: 'Treatment',
         experience: '3 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 60,
@@ -207,11 +192,10 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc9',
-        name: 'Dr. Ava Mitchell',
-        image: doc9,
-        speciality: 'Dermatologist',
-        degree: 'MBBS',
+        _id: 'bar9',
+        name: 'Jimmy',
+        image: bar9,
+        speciality: 'Haircut',
         experience: '1 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 30,
@@ -221,11 +205,10 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc10',
-        name: 'Dr. Jeffrey King',
-        image: doc10,
-        speciality: 'Pediatricians',
-        degree: 'MBBS',
+        _id: 'bar10',
+        name: 'Exsty',
+        image: bar10,
+        speciality: 'Scalp Health',
         experience: '2 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 40,
@@ -235,11 +218,10 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc11',
-        name: 'Dr. Zoe Kelly',
-        image: doc11,
-        speciality: 'Neurologist',
-        degree: 'MBBS',
+        _id: 'bar11',
+        name: 'Anisha',
+        image: bar11,
+        speciality: 'Men\'s Grooming',
         experience: '4 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
@@ -249,11 +231,10 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc12',
-        name: 'Dr. Patrick Harris',
-        image: doc12,
-        speciality: 'Neurologist',
-        degree: 'MBBS',
+        _id: 'bar12',
+        name: 'Broad',
+        image: bar12,
+        speciality: 'Extentions',
         experience: '4 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
@@ -263,44 +244,15 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc13',
-        name: 'Dr. Chloe Evans',
-        image: doc13,
-        speciality: 'General physician',
-        degree: 'MBBS',
+        _id: 'bar13',
+        name: 'Zara',
+        image: bar13,
+        speciality: 'Haircut',
         experience: '4 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
             line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
-        }
-    },
-    {
-        _id: 'doc14',
-        name: 'Dr. Ryan Martinez',
-        image: doc14,
-        speciality: 'Gynecologist',
-        degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
-        address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
-        }
-    },
-    {
-        _id: 'doc15',
-        name: 'Dr. Amelia Hill',
-        image: doc15,
-        speciality: 'Dermatologist',
-        degree: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 30,
-        address: {
-            line1: '37th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
         }
     },
