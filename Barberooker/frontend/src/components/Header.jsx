@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 const Header = () => {
   return (
-    <div className='flex flex-col md:flex-row flex-wrap bg-neutral-800 rounded-lg px-6 md:px-10 lg:px-20 justify-around align-middle '>
+    <div className='flex flex-col md:flex-row flex-wrap bg-neutral-800 rounded-lg px-6 md:px-10 lg:px-20 justify-around align-middle shadow-2xl '>
         <div className='md:w-1/2 flex flex-col items-start justify-center gap-0 py-10 m-auto md:py-[9vw] md:mb-[-30px]'>
             <p className='text-3xl md:text-4xl lg:text-5xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight mb-2'>
                 Book Appoinment <br/> With Trusted Hair Stylist

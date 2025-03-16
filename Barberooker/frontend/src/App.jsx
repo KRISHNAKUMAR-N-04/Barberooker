@@ -14,17 +14,17 @@ import Navbar from './components/Navbar'
 const App = () => {
   return (
     <div className="mx-4 sm:mx-[10%]">
-      <Navbar/>
+      <Navbar />
       <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/barbers' element={<Barbers/>}/>
-        <Route path='/barbers/:speciality' element={<Barbers/>} />
-        <Route path='/contact' element={<Contact/>} />
-        <Route path='/login' element={<Login/>} />
-        <Route path='/MyAppoinments' element={<MyAppoinments/>} />
-        <Route path='/about' element={<About/>} />
-        <Route path='/myprofile' element={<MyProfile/>} />
-        <Route path='/appoinment/:docId' element={<Appoinment/>} />
+        <Route path='/' element={<Home />} />
+        <Route path='/barbers' element={<Barbers />} />
+        <Route path='/barbers/:speciality' element={<Barbers />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/MyAppoinments' element={<MyAppoinments />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/myprofile' element={<MyProfile />} />
+        <Route path='/appoinment/:docId' element={<Appoinment />} />
 
       </Routes>
     </div>
