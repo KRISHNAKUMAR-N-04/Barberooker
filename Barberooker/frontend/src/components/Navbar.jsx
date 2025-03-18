@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='flex ml-4  mr-4 items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400'>
       
-      <p className='text-xl text-black font-bold leading-tight md:leading-tight lg:leading-tight mb-2'>Barberooker.</p>
+      <p onClick={()=> navigate('/')} className='text-xl text-black font-bold leading-tight md:leading-tight lg:leading-tight mb-2 cursor-pointer'>Barberooker.</p>
       <ul className='hidden md:flex items-start gap-8 font-medium'> 
         <NavLink to='/'>
             <li className='py-1'>Home</li>

@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import {dbarbers} from '../assets/assets'
+import { dbarbers } from '../assets/assets'
 
 
 export const AppContext = createContext()
