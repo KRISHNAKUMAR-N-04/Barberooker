@@ -4,6 +4,7 @@ import Specialitymenu from '../components/Specialitymenu'
 import Topbarber from '../components/Topbarber'
 import Banner from '../components/Banner'
 
+
 const Home = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const Home = () => {
         <Specialitymenu/>
         <Topbarber/>
         <Banner/>
+        
     </div>
   )
 }

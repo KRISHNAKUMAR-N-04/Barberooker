@@ -23,7 +23,7 @@ const Topbarber = () => {
             className="border border-blue-200 rounded-xl overflow-hidden cursor-pointer hover:-translate-y-2 transition-all duration-300"
           >
             <img
-              className="w-full h-40 sm:h-48 md:h-56 object-cover bg-zinc-800"
+              className="w-full h-40 sm:h-48 md:h-56 object-cover bg-gray-600"
               src={item.image}
               alt={item.name}
             />
